@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "images"
+public_folder: "/images"
+collections:
+  - name: "events"
+    label: "Events"
+    files:
+      - label: "All Events"
+        name: "events"
+        file: "data/events.json"
+        fields:
+          - {label: "Events", name: "events", widget: "list", fields:
+             [{label: Title, name: title, widget: string},
+              {label: Category, name: category, widget: string},
+              {label: Date, name: dateText, widget: string},
+              {label: Location, name: location, widget: string},
+              {label: Status, name: status, widget: select, options: [open, limited, soon, closed, completed]},
+              {label: Free, name: free, widget: boolean, default: true},
+              {label: Certificate, name: certificate, widget: boolean, default: true},
+              {label: Summary, name: summary, widget: text},
+              {label: Registration Link, name: registrationUrl, widget: string, required: false}]}
