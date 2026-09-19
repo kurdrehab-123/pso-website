@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Physiotherapy Science Organization — Advancing physiotherapy through science, education and connection</title>
+<meta name="description" content="Physiotherapy Science Organization (PSO) is a professional organization in the Kurdistan Region of Iraq advancing physiotherapy through education, practical workshops, scientific activities and professional events.">
+<meta name="keywords" content="physiotherapy Kurdistan, physiotherapy Erbil, physiotherapy education Kurdistan, physiotherapy courses Erbil, physiotherapy workshops Kurdistan, physiotherapy conferences Iraq, physiotherapy professional development">
+<meta property="og:title" content="Physiotherapy Science Organization">
+<meta property="og:description" content="Where the physiotherapy community in Kurdistan learns, connects and grows.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Archivo:wght@400;500;600&family=Noto+Kufi+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Physiotherapy Science Organization","alternateName":"PSO","description":"Professional physiotherapy education and scientific organization in the Kurdistan Region of Iraq.","areaServed":"Kurdistan Region, Iraq","sameAs":["https://instagram.com/physiotherapy.science.krd"]}
+</script>
+<style>
+/* ============================================================
+   DESIGN TOKENS
+   ============================================================ */
+:root{
+  --ink:#101A15;
+  --deep:#143A2B;
+  --deep-2:#0D2A1F;
+  --paper:#F4F6F2;
+  --paper-2:#EAEEE6;
+  --card:#FFFFFF;
+  --gold:#C0912C;
+  --red:#A6302B;
+  --green:#2E7D5B;
+  --muted:#5D6A62;
+  --line:#D6DDD4;
+  --line-soft:#E6EBE3;
+
+  --serif:"Spectral",Georgia,"Times New Roman",serif;
+  --sans:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --arabic:"Noto Kufi Arabic","Segoe UI",Tahoma,sans-serif;
+
+  --wrap:1180px;
+  --gut:clamp(20px,5vw,64px);
+  --sec:clamp(64px,9vw,128px);
+
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:17px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+html[dir="rtl"] body{font-family:var(--arabic)}
+html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3,html[dir="rtl"] .display{font-family:var(--arabic)}
+
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:2.5px solid var(--gold);outline-offset:3px;border-radius:2px}
+
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;margin:0;letter-spacing:-.012em;line-height:1.12}
+.d1{font-size:clamp(2.5rem,6.2vw,4.5rem);line-height:1.03;letter-spacing:-.022em}
+.d2{font-size:clamp(1.95rem,4.1vw,3rem);line-height:1.08;letter-spacing:-.018em}
+.d3{font-size:clamp(1.35rem,2.4vw,1.85rem);line-height:1.2}
+p{margin:0 0 1.05em}
+.lede{font-family:var(--serif);font-size:clamp(1.1rem,1.9vw,1.35rem);line-height:1.55;color:#22302A;max-width:62ch}
+.prose{max-width:66ch;color:#26332C}
+.muted{color:var(--muted)}
+
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:var(--gut)}
+.section{padding-block:var(--sec)}
+.rule{height:1px;background:var(--line);border:0;margin:0}
+
+/* small section label — thin rule + letterspaced caps */
+.label{
+  font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:12px;margin-bottom:18px;
+}
+.label::before{content:"";width:26px;height:2px;background:var(--gold);flex:none}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:13px 24px;border-radius:2px;border:1px solid transparent;
+  font-size:.94rem;font-weight:600;letter-spacing:.005em;text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+.btn-primary{background:var(--deep);color:#fff}
+.btn-primary:hover{background:var(--green)}
+.btn-gold{background:var(--gold);color:#1B1403}
+.btn-gold:hover{background:#A87C21;color:#fff}
+.btn-ghost{border-color:rgba(255,255,255,.45);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-outline{border-color:var(--line);color:var(--ink);background:transparent}
+.btn-outline:hover{border-color:var(--deep);background:#fff}
+.btn-sm{padding:9px 16px;font-size:.85rem}
+.tlink{
+  display:inline-block;font-weight:600;font-size:.95rem;text-decoration:none;
+  border-bottom:1.5px solid var(--gold);padding-bottom:2px;
+}
+.tlink:hover{border-bottom-color:var(--deep)}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.topbar{
+  position:sticky;top:env(safe-area-inset-top,0px);z-index:60;
+  background:rgba(244,246,242,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut);height:74px;display:flex;align-items:center;gap:22px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex:none}
+.brand-mark{
+  width:42px;height:42px;flex:none;border-radius:50%;
+  background:conic-gradient(from 210deg,var(--deep) 0 45%,var(--red) 45% 72%,var(--gold) 72% 100%);
+  display:grid;place-items:center;color:#fff;font-family:var(--serif);font-size:.95rem;letter-spacing:.02em;
+  box-shadow:inset 0 0 0 4px var(--paper);
+}
+.brand-mark img{width:100%;height:100%;object-fit:contain;border-radius:50%}
+.brand-txt{line-height:1.12}
+.brand-txt b{display:block;font-family:var(--serif);font-weight:600;font-size:1.02rem}
+.brand-txt span{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+nav.main{display:flex;gap:2px;margin-inline-start:auto;align-items:center}
+nav.main a{
+  text-decoration:none;font-size:.9rem;font-weight:500;padding:9px 11px;border-radius:2px;color:#26332C;
+}
+nav.main a:hover{background:var(--paper-2)}
+nav.main a.on{color:var(--deep);box-shadow:inset 0 -2px 0 var(--gold)}
+.lang{display:flex;gap:1px;border:1px solid var(--line);border-radius:2px;overflow:hidden;margin-inline-start:6px}
+.lang button{background:#fff;border:0;padding:7px 9px;font-size:.74rem;font-weight:600;color:var(--muted)}
+.lang button.on{background:var(--deep);color:#fff}
+.burger{display:none;margin-inline-start:auto;background:transparent;border:1px solid var(--line);border-radius:2px;padding:9px 12px}
+.drawer{display:none;border-top:1px solid var(--line);background:var(--paper);padding:10px var(--gut) 22px}
+.drawer a{display:block;text-decoration:none;padding:13px 2px;border-bottom:1px solid var(--line-soft);font-weight:500}
+.drawer .btn{width:100%;margin-top:16px}
+.drawer .lang{display:flex}
+.drawer .lang button{flex:1;padding:11px 8px;font-size:.88rem}
+@media(max-width:980px){
+  nav.main{display:none}
+  .burger{display:block}
+  .drawer.open{display:block}
+  .topbar-in .lang{display:none}
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{background:var(--deep-2);color:#F2F5F0;position:relative;overflow:hidden}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(120% 90% at 85% 10%,rgba(192,145,44,.18),transparent 60%);
+}
+.hero-in{
+  max-width:var(--wrap);margin:0 auto;padding:clamp(56px,8vw,96px) var(--gut) clamp(52px,7vw,88px);
+  display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(28px,5vw,64px);align-items:center;position:relative;z-index:2;
+}
+.hero h1{font-size:clamp(2.4rem,5.4vw,4.1rem);line-height:1.04;letter-spacing:-.024em}
+.hero .orgline{
+  font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:#D8C79A;margin-bottom:22px;
+  display:flex;align-items:center;gap:12px;
+}
+.hero .orgline::before{content:"";width:34px;height:2px;background:var(--gold)}
+.hero p.sub{color:#C9D5CC;max-width:52ch;margin-top:22px;font-size:1.05rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px;align-items:center}
+.hero-after{margin-top:22px}
+.hero-after a{color:#D8C79A;text-decoration:none;font-size:.92rem;font-weight:600;border-bottom:1.5px solid rgba(216,199,154,.5);padding-bottom:2px}
+.hero-photo{
+  aspect-ratio:4/5;border:1px solid rgba(255,255,255,.18);background:
+    repeating-linear-gradient(135deg,rgba(255,255,255,.035) 0 12px,transparent 12px 24px),rgba(255,255,255,.04);
+  display:grid;place-content:center;text-align:center;padding:26px;gap:8px;
+}
+.hero-photo span{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#9FB3A6}
+.hero-photo b{font-family:var(--serif);font-weight:400;font-size:1.05rem;color:#DCE5DC}
+@media(max-width:900px){.hero-in{grid-template-columns:1fr}.hero-photo{aspect-ratio:16/10;order:-1}}
+
+/* image placeholder (reusable) */
+.ph{
+  background:var(--paper-2);border:1px solid var(--line);
+  background-image:repeating-linear-gradient(135deg,rgba(20,58,43,.045) 0 10px,transparent 10px 20px);
+  display:grid;place-content:center;text-align:center;padding:18px;color:var(--muted);
+}
+.ph em{font-style:normal;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase}
+.ph img{width:100%;height:100%;object-fit:cover}
+
+/* ============================================================
+   GRIDS / CARDS
+   ============================================================ */
+.grid{display:grid;gap:clamp(18px,2.6vw,30px)}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:900px){.g3,.g4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.g2,.g3,.g4{grid-template-columns:1fr}}
+
+.split{display:grid;grid-template-columns:.78fr 1.22fr;gap:clamp(26px,5vw,72px);align-items:start}
+@media(max-width:860px){.split{grid-template-columns:1fr;gap:26px}}
+
+/* domain list (What we do) */
+.domains{border-top:1px solid var(--line)}
+.domain{
+  display:grid;grid-template-columns:minmax(200px,.5fr) 1fr;gap:clamp(12px,4vw,48px);
+  padding:26px 0;border-bottom:1px solid var(--line);align-items:start;
+}
+.domain h3{font-size:1.28rem}
+.domain p{margin:0;color:var(--muted);max-width:60ch}
+@media(max-width:760px){.domain{grid-template-columns:1fr;gap:6px}}
+
+/* event card */
+.ecard{background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column;text-decoration:none}
+.ecard .ph{aspect-ratio:16/10;border:0;border-bottom:1px solid var(--line)}
+.ecard-body{padding:20px;display:flex;flex-direction:column;gap:10px;flex:1}
+.ecard h3{font-size:1.18rem;line-height:1.25}
+.meta{font-size:.86rem;color:var(--muted);display:flex;flex-direction:column;gap:3px}
+.meta b{font-weight:600;color:#2C3A32}
+.ecard .foot{margin-top:auto;padding-top:14px;border-top:1px solid var(--line-soft);display:flex;align-items:center;justify-content:space-between;gap:10px}
+.ecard:hover{border-color:var(--deep)}
+
+.tag{
+  display:inline-flex;align-items:center;gap:6px;font-size:.7rem;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;padding:5px 9px;border-radius:2px;border:1px solid var(--line);color:var(--muted);background:#fff;
+}
+.tag.open{background:rgba(46,125,91,.1);border-color:rgba(46,125,91,.35);color:#1F5F43}
+.tag.limited{background:rgba(192,145,44,.14);border-color:rgba(192,145,44,.4);color:#7D5C10}
+.tag.free{background:rgba(20,58,43,.08);border-color:rgba(20,58,43,.25);color:var(--deep)}
+.tag.closed,.tag.done{background:var(--paper-2);color:var(--muted)}
+.tag.soon{background:rgba(166,48,43,.09);border-color:rgba(166,48,43,.3);color:var(--red)}
+.tag.cert{border-style:dashed}
+
+/* featured event */
+.feature{background:var(--deep);color:#EEF3EE}
+.feature .wrap{padding-block:var(--sec)}
+.feature-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(26px,5vw,64px);align-items:center}
+@media(max-width:900px){.feature-grid{grid-template-columns:1fr}}
+.feature .label{color:#C9D5CC}
+.feature h2{color:#fff}
+.fmeta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 24px;margin:26px 0;border-top:1px solid rgba(255,255,255,.16);padding-top:22px}
+.fmeta div span{display:block;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#9FB3A6;margin-bottom:4px}
+.fmeta div b{font-weight:500;font-size:1rem;color:#F2F5F0}
+.speakers{display:grid;gap:10px;margin-top:6px}
+.spk{display:flex;align-items:center;gap:12px;padding:11px 14px;background:rgba(255,255,255,.055);border-inline-start:2px solid var(--gold)}
+.spk .av{width:34px;height:34px;flex:none;border-radius:50%;background:rgba(255,255,255,.12);display:grid;place-items:center;font-family:var(--serif);font-size:.85rem;color:#E4D9B8}
+.spk b{font-weight:500;font-size:.95rem}
+
+/* editorial archive grid */
+.arch{display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(16px,2.4vw,26px)}
+.arch > a{text-decoration:none;display:block;background:var(--card);border:1px solid var(--line)}
+.arch > a:hover{border-color:var(--deep)}
+.arch .ph{border:0;border-bottom:1px solid var(--line)}
+.arch-body{padding:18px}
+.span6{grid-column:span 6}.span4{grid-column:span 4}.span3{grid-column:span 3}.span2{grid-column:span 2}
+.span6 .ph{aspect-ratio:21/8}.span4 .ph{aspect-ratio:4/3}.span3 .ph{aspect-ratio:3/2}.span2 .ph{aspect-ratio:1/1}
+@media(max-width:900px){.arch{grid-template-columns:repeat(2,1fr)}.span6,.span4,.span3,.span2{grid-column:span 2}.span6 .ph{aspect-ratio:16/9}}
+@media(max-width:600px){.arch{grid-template-columns:1fr}.span6,.span4,.span3,.span2{grid-column:span 1}}
+
+/* belief band */
+.belief{background:var(--paper-2);border-block:1px solid var(--line)}
+.belief-in{max-width:var(--wrap);margin:0 auto;padding:clamp(56px,8vw,104px) var(--gut);text-align:center}
+.triad{display:flex;justify-content:center;flex-wrap:wrap;gap:10px 30px;margin-bottom:26px}
+.triad span{font-family:var(--serif);font-size:clamp(1.6rem,4vw,2.6rem);color:var(--deep)}
+.triad span:nth-child(2){color:var(--red)}
+.triad span:nth-child(3){color:var(--gold)}
+.belief blockquote{
+  margin:0 auto;max-width:44ch;font-family:var(--serif);font-size:clamp(1.15rem,2.2vw,1.55rem);
+  line-height:1.5;color:#22302A;font-style:italic;
+}
+
+/* people */
+.pcard{background:var(--card);border:1px solid var(--line);text-decoration:none;display:block}
+.pcard .ph{aspect-ratio:1/1;border:0;border-bottom:1px solid var(--line)}
+.pcard-body{padding:16px}
+.pcard h3{font-size:1.05rem;margin-bottom:3px}
+.pcard p{margin:0;font-size:.85rem;color:var(--muted)}
+.pcard:hover{border-color:var(--deep)}
+
+/* pathways */
+.paths{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--line);background:var(--card)}
+.paths a{
+  padding:26px 20px;text-decoration:none;border-inline-end:1px solid var(--line);display:flex;flex-direction:column;gap:7px;
+}
+.paths a:last-child{border-inline-end:0}
+.paths a:hover{background:var(--paper-2)}
+.paths b{font-family:var(--serif);font-size:1.12rem;font-weight:500}
+.paths span{font-size:.85rem;color:var(--muted)}
+@media(max-width:1000px){.paths{grid-template-columns:repeat(2,1fr)}.paths a{border-bottom:1px solid var(--line)}.paths a:nth-child(2n){border-inline-end:0}}
+@media(max-width:560px){.paths{grid-template-columns:1fr}.paths a{border-inline-end:0}}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:34px}
+.filters button{
+  background:transparent;border:1px solid var(--line);border-radius:2px;padding:8px 15px;font-size:.86rem;font-weight:500;color:#2C3A32;
+}
+.filters button.on{background:var(--deep);border-color:var(--deep);color:#fff}
+.filters button:hover:not(.on){background:#fff}
+
+/* detail page */
+.dhero{background:var(--deep-2);color:#EEF3EE}
+.dhero-in{max-width:var(--wrap);margin:0 auto;padding:clamp(40px,6vw,72px) var(--gut)}
+.crumb{font-size:.84rem;color:#9FB3A6;margin-bottom:20px}
+.crumb a{color:#D8C79A;text-decoration:none}
+.dgrid{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(26px,4vw,56px);align-items:start}
+@media(max-width:900px){.dgrid{grid-template-columns:1fr}}
+.panel{background:var(--card);border:1px solid var(--line);padding:24px}
+.panel h3{font-size:1.1rem;margin-bottom:12px}
+.kv{display:grid;gap:11px;margin:0;font-size:.93rem}
+.kv div{display:grid;grid-template-columns:118px 1fr;gap:10px;align-items:baseline}
+.kv span{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+@media(max-width:420px){.kv div{grid-template-columns:1fr;gap:1px}}
+.agenda{list-style:none;padding:0;margin:0;counter-reset:st}
+.agenda li{padding:13px 0;border-bottom:1px solid var(--line-soft);display:grid;grid-template-columns:34px 1fr;gap:14px}
+.agenda li::before{counter-increment:st;content:counter(st,decimal-leading-zero);font-family:var(--serif);color:var(--gold)}
+.objectives{margin:0;padding-inline-start:1.1em;color:#26332C}
+.objectives li{margin-bottom:8px}
+.note{
+  background:rgba(192,145,44,.1);border-inline-start:3px solid var(--gold);padding:14px 16px;font-size:.9rem;color:#4A3A12;
+}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:820px){.gal{grid-template-columns:repeat(2,1fr)}}
+.gal button{padding:0;border:1px solid var(--line);background:none;display:block}
+.gal .ph{aspect-ratio:1/1;border:0}
+.lightbox{
+  position:fixed;inset:0;background:rgba(9,17,13,.94);z-index:200;display:none;place-items:center;padding:24px;
+}
+.lightbox.on{display:grid}
+.lightbox .frame{max-width:900px;width:100%;aspect-ratio:3/2;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.18);display:grid;place-content:center;color:#9FB3A6;text-align:center;padding:20px}
+.lightbox .cap{color:#DCE5DC;margin-top:14px;text-align:center;font-size:.92rem}
+.lb-ctrl{display:flex;gap:10px;justify-content:center;margin-top:18px}
+
+/* news */
+.narticle{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:26px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.narticle time{font-size:.85rem;color:var(--muted)}
+.narticle:hover h3{color:var(--green)}
+@media(max-width:640px){.narticle{grid-template-columns:1fr;gap:6px}}
+
+/* contact */
+.field{display:block;margin-bottom:16px}
+.field span{display:block;font-size:.8rem;font-weight:600;letter-spacing:.06em;margin-bottom:6px;color:#2C3A32}
+.field input,.field select,.field textarea{
+  width:100%;padding:12px 13px;border:1px solid var(--line);border-radius:2px;background:#fff;font:inherit;font-size:.95rem;color:var(--ink);
+}
+.field textarea{min-height:130px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--deep);outline:none;box-shadow:0 0 0 3px rgba(20,58,43,.1)}
+
+/* empty state */
+.empty{border:1px dashed var(--line);padding:34px;text-align:center;color:var(--muted);background:#fff}
+
+/* footer */
+footer.site{background:var(--ink);color:#C9D5CC}
+.foot-in{max-width:var(--wrap);margin:0 auto;padding:clamp(48px,6vw,80px) var(--gut) 36px;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:34px}
+@media(max-width:860px){.foot-in{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.foot-in{grid-template-columns:1fr}}
+footer.site h4{color:#fff;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-family:var(--sans);font-weight:600;margin-bottom:14px}
+footer.site a{color:#C9D5CC;text-decoration:none;display:block;padding:5px 0;font-size:.92rem}
+footer.site a:hover{color:var(--gold)}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:10px}
+.foot-bottom div{max-width:var(--wrap);margin:0 auto;padding:20px var(--gut);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:.84rem;color:#8FA396}
+.foot-brand{display:flex;gap:12px;align-items:center;margin-bottom:16px}
+.foot-brand .brand-mark{box-shadow:inset 0 0 0 4px var(--ink)}
+
+/* one orchestrated entrance, hero only */
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.hero-in > *{animation:rise .7s cubic-bezier(.2,.7,.3,1) both}
+.hero-in > *:nth-child(2){animation-delay:.12s}
+@media (prefers-reduced-motion:reduce){.hero-in > *{animation:none}}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-9999px;background:var(--deep);color:#fff;padding:10px 16px;z-index:100}
+.skip:focus{left:var(--gut);top:8px}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="#/">
+      <!-- LOGO SLOT: replace the div below with <img src="logo.png" alt="PSO logo"> -->
+      <div class="brand-mark" id="logoSlot">PSO</div>
+      <div class="brand-txt">
+        <b>Physiotherapy Science</b>
+        <span>Organization · Kurdistan</span>
+      </div>
+    </a>
+    <nav class="main" id="mainNav"></nav>
+    <a class="btn btn-gold btn-sm" href="#/events" data-i18n="cta.upcoming">Upcoming Events</a>
+    <div class="lang" id="langSwitch"></div>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="drawer">☰ <span class="sr">Menu</span></button>
+  </div>
+  <div class="drawer" id="drawer"></div>
+</header>
+
+<main id="main"></main>
+
+<footer class="site">
+  <div class="foot-in">
+    <div>
+      <div class="foot-brand">
+        <div class="brand-mark">PSO</div>
+        <div class="brand-txt"><b style="color:#fff">Physiotherapy Science Organization</b></div>
+      </div>
+      <p style="max-width:34ch;font-size:.93rem">Advancing physiotherapy in the Kurdistan Region through education, scientific activity and professional connection.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="#/about">About</a><a href="#/activities">Activities</a><a href="#/events">Events &amp; Training</a><a href="#/people">People</a>
+    </div>
+    <div>
+      <h4>More</h4>
+      <a href="#/gallery">Gallery</a><a href="#/news">News</a><a href="#/contact">Contact</a>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <a href="https://instagram.com/physiotherapy.science.krd" target="_blank" rel="noopener">@physiotherapy.science.krd</a>
+      <a href="#/contact" id="footEmail">Email — to be supplied</a>
+      <a href="#/contact" id="footPhone">Phone — to be supplied</a>
+    </div>
+  </div>
+  <div class="foot-bottom"><div>
+    <span>© <span id="yr"></span> Physiotherapy Science Organization. All rights reserved.</span>
+    <span>Erbil, Kurdistan Region, Iraq</span>
+  </div></div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <div>
+    <div class="frame" id="lbFrame"></div>
+    <p class="cap" id="lbCap"></p>
+    <div class="lb-ctrl">
+      <button class="btn btn-ghost btn-sm" id="lbPrev">← Previous</button>
+      <button class="btn btn-ghost btn-sm" id="lbClose">Close</button>
+      <button class="btn btn-ghost btn-sm" id="lbNext">Next →</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ============================================================================
+   CONTENT MODEL  —  EDIT ONLY THIS BLOCK TO MANAGE THE SITE
+   ----------------------------------------------------------------------------
+   Models: EVENT, PERSON, ORGANIZATION, GALLERY (inside event), NEWS.
+   Relations are by "slug": an event lists person slugs; a person page then
+   builds its own activity list automatically.
+
+   To mark an event completed:   status: "completed"
+   To add photos:                photos: [{src:"url", caption:"..."}]
+   Anything not yet supplied is left as null / [] and the page renders a
+   clearly-marked placeholder instead of inventing content.
+   ========================================================================== */
+const SITE = {
+  org: {
+    name: "Physiotherapy Science Organization",
+    short: "PSO",
+    instagram: "physiotherapy.science.krd",
+    email: null,          // e.g. "info@pso.krd"
+    phone: null,          // e.g. "+964 ..."
+    whatsapp: null,       // e.g. "https://wa.me/964..."
+    address: null,        // only fill if PSO has a permanent office
+    founded: null,        // year — leave null until confirmed
+    showImpactStats: false, // turn on only when verified numbers exist
+    impact: { courses:null, participants:null, speakers:null, organizations:null }
+  },
+
+  people: [
+    { slug:"ghassan-al-alousi", name:"Assist. Prof. Ghassan Husni Ali Al Alousi", credentials:"Assist. Prof.", role:null, org:null, bio:null, expertise:[], group:"speakers", photo:null, link:null },
+    { slug:"zahraa-ahmed", name:"PT Zahraa Ahmed", credentials:"PT", role:null, org:null, bio:null, expertise:[], group:"speakers", photo:null, link:null },
+    { slug:"hajer-alkanani", name:"PT Hajer Alkanani", credentials:"PT", role:null, org:null, bio:null, expertise:[], group:"speakers", photo:null, link:null },
+    { slug:"mustafa-a-salihi", name:"PT Mustafa A. Salihi", credentials:"PT", role:null, org:null, bio:null, expertise:[], group:"speakers", photo:null, link:null },
+    { slug:"mardin-salim-adham", name:"Mardin Salim Adham", credentials:"MSc, Senior Physiotherapist", role:null, org:null, bio:null, expertise:[], group:"trainers", photo:null, link:null },
+    { slug:"sumaya-m-barzani", name:"PT Sumaya M. Barzani", credentials:"PT", role:null, org:null, bio:null, expertise:[], group:"trainers", photo:null, link:null },
+    { slug:"asma-gholamreza-mohammed", name:"Asma Gholamreza Mohammed", credentials:null, role:"Trainer", org:null, bio:null, expertise:[], group:"trainers", photo:null, link:null },
+    { slug:"hasan-najat", name:"Hasan Najat", credentials:"Physiotherapist", role:null, org:null, bio:null, expertise:[], group:"speakers", photo:null, link:null }
+  ],
+
+  organizations: [
+    { slug:"erbil-international-hospital", name:"Erbil International Hospital", type:"Venue", note:"Hosted PSO activities." }
+  ],
+
+  events: [
+    {
+      slug:"world-physical-therapy-day-2026",
+      title:"World Physical Therapy Day 2026 — Pediatric Physical Therapy and Rehabilitation",
+      category:"Professional Event",
+      year:2026,
+      dateText:"24 September 2026",
+      dateISO:"2026-09-24",
+      time:"4:00 PM – 7:00 PM",
+      location:"Erbil International Hospital",
+      venueSlug:"erbil-international-hospital",
+      organizer:"Physiotherapy Science Organization",
+      partners:[],
+      speakers:["ghassan-al-alousi","zahraa-ahmed","hajer-alkanani","mustafa-a-salihi"],
+      trainers:[],
+      status:"open",            // open | limited | soon | closed | completed
+      free:true,
+      certificate:true,
+      capacity:null,
+      seatsLeft:null,
+      registrationUrl:null,     // paste the registration form link here
+      featured:true,
+      summary:"A World Physical Therapy Day event focused on pediatric physical therapy and rehabilitation, with expert presentations, clinical insights and professional discussion.",
+      overview:"PSO marks World Physical Therapy Day 2026 with a professional programme on pediatric physical therapy and rehabilitation. The session brings together expert presentations, clinical insights and open professional discussion on the role of physiotherapy in supporting children's function, development and participation in the community.",
+      objectives:[
+        "Discuss current approaches in pediatric physical therapy and rehabilitation.",
+        "Exchange clinical insights across practice settings.",
+        "Strengthen awareness of the physiotherapist's role in pediatric care and community participation."
+      ],
+      agenda:[],                 // e.g. [{time:"4:00 PM", item:"Registration"}]
+      audience:["Physiotherapists","Physiotherapy students","Rehabilitation professionals","Healthcare professionals"],
+      highlights:null,
+      photos:[]
+    },
+    {
+      slug:"soft-tissue-release-suboccipital-headache",
+      title:"Soft Tissue Release as a Treatment for Suboccipital Headache — Diagnosis and Treatment",
+      category:"Workshop",
+      year:2026, dateText:"28 August 2026", dateISO:"2026-08-28", time:null, location:null, venueSlug:null,
+      organizer:"Physiotherapy Science Organization", partners:[],
+      speakers:["hasan-najat"], trainers:[],
+      status:"completed", free:null, certificate:null, capacity:null, seatsLeft:null, registrationUrl:null, featured:false,
+      summary:"A practical session on the diagnosis and treatment of suboccipital headache using soft tissue release techniques.",
+      overview:"A practical professional session on the assessment and management of suboccipital headache, covering diagnosis and the application of soft tissue release techniques.",
+      objectives:[], agenda:[], audience:["Physiotherapists","Physiotherapy students"],
+      highlights:null, photos:[]
+    },
+    {
+      slug:"fundamentals-of-hydrotherapy",
+      title:"Fundamentals of Hydrotherapy in Physiotherapy",
+      category:"Course",
+      year:2026, dateText:"25–26 June 2026", dateISO:"2026-06-25", time:null,
+      location:"Erbil International Hospital", venueSlug:"erbil-international-hospital",
+      organizer:"Physiotherapy Science Organization", partners:[],
+      speakers:[], trainers:["asma-gholamreza-mohammed"],
+      status:"completed", free:null, certificate:null, capacity:null, seatsLeft:null, registrationUrl:null, featured:false,
+      summary:"A two-day theoretical and practical training on the fundamentals of hydrotherapy in physiotherapy practice.",
+      overview:"A two-day training combining theoretical sessions and practical work on the fundamentals of hydrotherapy and its application in physiotherapy practice.",
+      objectives:[], agenda:[], audience:["Physiotherapists","Physiotherapy students"],
+      highlights:null, photos:[]
+    },
+    {
+      slug:"pnf-workshop",
+      title:"Proprioceptive Neuromuscular Facilitation (PNF) Workshop",
+      category:"Workshop",
+      year:2026, dateText:"23 January 2026", dateISO:"2026-01-23", time:null, location:null, venueSlug:null,
+      organizer:"Physiotherapy Science Organization", partners:[],
+      speakers:[], trainers:["sumaya-m-barzani","zahraa-ahmed"],
+      status:"completed", free:null, certificate:null, capacity:null, seatsLeft:null, registrationUrl:null, featured:false,
+      summary:"A hands-on workshop on proprioceptive neuromuscular facilitation principles and techniques.",
+      overview:"A hands-on professional workshop on proprioceptive neuromuscular facilitation (PNF), its principles and its application in physiotherapy practice.",
+      objectives:[], agenda:[], audience:["Physiotherapists","Physiotherapy students"],
+      highlights:null, photos:[]
+    },
+    {
+      slug:"joint-mobilization-and-biomechanics",
+      title:"Joint Mobilization and Biomechanics Integration in Physiotherapy",
+      category:"Course",
+      year:2025, dateText:"27–28 November 2025", dateISO:"2025-11-27", time:null, location:null, venueSlug:null,
+      organizer:"Physiotherapy Science Organization", partners:[],
+      speakers:[], trainers:["mardin-salim-adham"],
+      status:"completed", free:null, certificate:null, capacity:null, seatsLeft:null, registrationUrl:null, featured:false,
+      summary:"A course integrating joint mobilization technique with applied biomechanics in physiotherapy practice.",
+      overview:"A professional course on joint mobilization and the integration of biomechanical reasoning into physiotherapy assessment and treatment.",
+      objectives:[], agenda:[], audience:["Physiotherapists","Physiotherapy students"],
+      highlights:null, photos:[]
+    },
+    {
+      slug:"world-physiotherapy-day-2025",
+      title:"World Physiotherapy Day 2025",
+      category:"Awareness",
+      year:2025, dateText:"2025", dateISO:"2025-09-08", time:null, location:null, venueSlug:null,
+      organizer:"Physiotherapy Science Organization", partners:[],
+      speakers:[], trainers:[],
+      status:"completed", free:null, certificate:null, capacity:null, seatsLeft:null, registrationUrl:null, featured:false,
+      summary:"PSO's World Physiotherapy Day activity raising awareness of physiotherapy and its role in healthcare.",
+      overview:"An awareness activity held for World Physiotherapy Day 2025, highlighting physiotherapy and its contribution to health and rehabilitation.",
+      objectives:[], agenda:[], audience:["Physiotherapists","Physiotherapy students","General public"],
+      highlights:null, photos:[]
+    }
+  ],
+
+  news: []   // { slug, title, date, dateText, excerpt, body }
+};
+
+/* ============================================================================
+   UI STRINGS (interface only — professional content is not machine-translated)
+   ========================================================================== */
+const I18N = {
+  en:{dir:"ltr",nav:{home:"Home",about:"About",activities:"Activities",events:"Events & Training",people:"People",gallery:"Gallery",news:"News",contact:"Contact"},cta:{upcoming:"Upcoming Events"},pending:null},
+  ku:{dir:"rtl",nav:{home:"سەرەتا",about:"دەربارە",activities:"چالاکییەکان",events:"ڕووداو و ڕاهێنان",people:"کەسەکان",gallery:"گەلەری",news:"هەواڵ",contact:"پەیوەندی"},cta:{upcoming:"ڕووداوە داهاتووەکان"},pending:"ناوەڕۆکی پیشەیی بە کوردی هێشتا ئامادە نەکراوە. ئەم پەڕەیە بە ئینگلیزی پیشان دەدرێت."},
+  ar:{dir:"rtl",nav:{home:"الرئيسية",about:"من نحن",activities:"الأنشطة",events:"الفعاليات والتدريب",people:"الأشخاص",gallery:"معرض الصور",news:"الأخبار",contact:"اتصل بنا"},cta:{upcoming:"الفعاليات القادمة"},pending:"المحتوى المهني باللغة العربية قيد الإعداد. تُعرض هذه الصفحة حالياً بالإنجليزية."}
+};
+
+/* ==========================  HELPERS  ====================================== */
+const $=(s,r=document)=>r.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const person=slug=>SITE.people.find(p=>p.slug===slug);
+const event_=slug=>SITE.events.find(e=>e.slug===slug);
+const eventPeople=e=>[...(e.speakers||[]),...(e.trainers||[])].map(person).filter(Boolean);
+const isUpcoming=e=>e.status!=="completed";
+const upcoming=()=>SITE.events.filter(isUpcoming).sort((a,b)=>(a.dateISO||"").localeCompare(b.dateISO||""));
+const past=()=>SITE.events.filter(e=>!isUpcoming(e)).sort((a,b)=>(b.dateISO||"").localeCompare(a.dateISO||""));
+const featured=()=>SITE.events.find(e=>e.featured&&isUpcoming(e))||upcoming()[0]||null;
+const initials=n=>n.replace(/^(PT|Dr\.?|Assist\.?|Prof\.?|MSc)\s+/gi,"").trim().split(/\s+/).slice(0,2).map(w=>w[0]).join("").toUpperCase();
+
+const STATUS={open:["open","Registration open"],limited:["limited","Limited seats"],soon:["soon","Coming soon"],closed:["closed","Registration closed"],completed:["done","Completed"]};
+function statusTag(e){const s=STATUS[e.status]||STATUS.soon;return `<span class="tag ${s[0]}">${s[1]}</span>`}
+function ph(label,style=""){return `<div class="ph" style="${style}"><em>${esc(label)}</em></div>`}
+function photoOr(src,label,style=""){return src?`<div class="ph" style="${style}"><img src="${esc(src)}" alt="${esc(label)}" loading="lazy"></div>`:ph(label,style)}
+
+/* ==========================  COMPONENTS  =================================== */
+function eventCard(e){
+  const ppl=eventPeople(e);
+  return `<a class="ecard" href="#/events/${e.slug}">
+    ${photoOr(e.photos?.[0]?.src,e.title,"aspect-ratio:16/10")}
+    <div class="ecard-body">
+      <div style="display:flex;gap:6px;flex-wrap:wrap">${statusTag(e)}${e.free?'<span class="tag free">Free</span>':""}${e.certificate?'<span class="tag cert">Certificate</span>':""}</div>
+      <h3>${esc(e.title)}</h3>
+      <div class="meta">
+        <b>${esc(e.dateText||"Date to be announced")}</b>
+        ${e.time?`<span>${esc(e.time)}</span>`:""}
+        ${e.location?`<span>${esc(e.location)}</span>`:""}
+        ${ppl.length?`<span>${esc(ppl.map(p=>p.name).join(" · "))}</span>`:""}
+      </div>
+      <p style="font-size:.92rem;color:var(--muted);margin:0">${esc(e.summary||"")}</p>
+      <div class="foot">
+        <span class="muted" style="font-size:.82rem">${esc(e.category)}</span>
+        <span class="tlink">${e.status==="completed"?"View highlights":"View event"}</span>
+      </div>
+    </div>
+  </a>`;
+}
+function personCard(p){
+  return `<a class="pcard" href="#/people/${p.slug}">
+    ${photoOr(p.photo,p.name,"aspect-ratio:1/1")}
+    <div class="pcard-body"><h3>${esc(p.name)}</h3><p>${esc(p.credentials||p.role||"Profile to be supplied")}</p></div>
+  </a>`;
+}
+function pageHead(label,title,lede){
+  return `<section class="dhero"><div class="dhero-in">
+    <div class="label" style="color:#C9D5CC">${esc(label)}</div>
+    <h1 class="d1" style="color:#fff;max-width:18ch">${esc(title)}</h1>
+    ${lede?`<p style="color:#C9D5CC;max-width:60ch;margin-top:20px;font-size:1.05rem">${esc(lede)}</p>`:""}
+  </div></section>`;
+}
+
+/* ==========================  PAGES  ======================================== */
+function pageHome(){
+  const f=featured();
+  const up=upcoming().filter(e=>!f||e.slug!==f.slug);
+  const archive=past().slice(0,5);
+  const spans=["span4","span2","span2","span2","span2"];
+  return `
+  <section class="hero"><div class="hero-in">
+    <div>
+      <div class="orgline">Physiotherapy Science Organization</div>
+      <h1>Advancing physiotherapy through science, education and connection.</h1>
+      <p class="sub">PSO brings physiotherapists and physiotherapy students together through professional education, scientific activities, practical training and collaborative events across the Kurdistan Region.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#/activities">Explore our activities</a>
+        <a class="btn btn-ghost" href="#/events">Upcoming events</a>
+      </div>
+      <div class="hero-after"><a href="#/about">About PSO →</a></div>
+    </div>
+    <div class="hero-photo"><b>PSO event photograph</b><span>Add a wide photo from a recent activity</span></div>
+  </div></section>
+
+  <section class="section"><div class="wrap split">
+    <div><div class="label">Who we are</div><h2 class="d2">Building a stronger physiotherapy community.</h2></div>
+    <div>
+      <p class="lede">PSO is a professional organization dedicated to advancing physiotherapy through education, awareness, professional development and meaningful connection within the physiotherapy community.</p>
+      <p class="prose">We support physiotherapists and students in expanding their knowledge, developing clinical skills and staying connected with developments in rehabilitation and healthcare — because physiotherapy is a science that keeps developing, and it asks for continuous learning, collaboration and innovation.</p>
+      <a class="tlink" href="#/about">Discover our story →</a>
+    </div>
+  </div></section>
+
+  <section class="section" style="padding-top:0"><div class="wrap">
+    <div class="label">What we do</div>
+    <h2 class="d2" style="max-width:20ch;margin-bottom:34px">Learning that goes beyond the classroom.</h2>
+    <div class="domains">
+      ${[["Professional education","Courses and structured learning opportunities for physiotherapists and students."],
+         ["Practical workshops","Hands-on professional development focused on clinical knowledge and skills."],
+         ["Scientific activities","Activities encouraging evidence-informed physiotherapy, knowledge exchange and professional discussion."],
+         ["Conferences &amp; events","Professional gatherings connecting physiotherapists, academics, students and healthcare professionals."],
+         ["Community &amp; awareness","Activities strengthening awareness of physiotherapy and its contribution to healthcare."]]
+        .map(([h,p])=>`<div class="domain"><h3>${h}</h3><p>${p}</p></div>`).join("")}
+    </div>
+  </div></section>
+
+  ${f?`<section class="feature"><div class="wrap"><div class="feature-grid">
+    <div>
+      <div class="label">Next event</div>
+      <h2 class="d2" style="max-width:20ch">${esc(f.title)}</h2>
+      <p style="color:#C9D5CC;max-width:52ch;margin-top:16px">${esc(f.overview||f.summary||"")}</p>
+      <div class="fmeta">
+        <div><span>Date</span><b>${esc(f.dateText||"To be announced")}</b></div>
+        <div><span>Time</span><b>${esc(f.time||"To be announced")}</b></div>
+        <div><span>Location</span><b>${esc(f.location||"To be announced")}</b></div>
+        <div><span>Attendance</span><b>${f.free?"Free":"To be announced"}${f.certificate?" · Certificate":""}</b></div>
+      </div>
+      <div class="hero-cta" style="margin-top:0">
+        <a class="btn btn-gold" href="#/events/${f.slug}">View event</a>
+        <a class="btn btn-ghost" href="${f.registrationUrl?esc(f.registrationUrl):"#/contact"}" ${f.registrationUrl?'target="_blank" rel="noopener"':""}>Register</a>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#9FB3A6;margin-bottom:12px">Presenters</div>
+      <div class="speakers">
+        ${eventPeople(f).map(p=>`<div class="spk"><div class="av">${esc(initials(p.name))}</div><b>${esc(p.name)}</b></div>`).join("")||'<div class="spk"><b>Speakers to be announced</b></div>'}
+      </div>
+    </div>
+  </div></div></section>`:""}
+
+  ${up.length?`<section class="section"><div class="wrap">
+    <div class="label">Upcoming</div>
+    <h2 class="d2" style="margin-bottom:32px">More training ahead.</h2>
+    <div class="grid g3">${up.map(eventCard).join("")}</div>
+  </div></section>`:""}
+
+  <section class="section" style="background:var(--paper-2);border-top:1px solid var(--line)"><div class="wrap">
+    <div class="label">Archive</div>
+    <h2 class="d2">Learning in action.</h2>
+    <p class="prose" style="margin:14px 0 34px">Explore courses, workshops, conferences and scientific activities organized by PSO.</p>
+    <div class="arch">
+      ${archive.map((e,i)=>`<a class="${spans[i]||"span2"}" href="#/events/${e.slug}">
+        ${photoOr(e.photos?.[0]?.src,e.title)}
+        <div class="arch-body">
+          <div class="muted" style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px">${esc(e.category)} · ${esc(e.year)}</div>
+          <h3 class="d3">${esc(e.title)}</h3>
+          <p class="muted" style="font-size:.88rem;margin:8px 0 0">${esc(e.dateText||"")}</p>
+        </div></a>`).join("")}
+    </div>
+    <div style="margin-top:34px"><a class="tlink" href="#/activities">View all activities →</a></div>
+  </div></section>
+
+  ${SITE.org.showImpactStats?`<section class="section"><div class="wrap grid g4">
+    ${[["Courses & workshops",SITE.org.impact.courses],["Participants",SITE.org.impact.participants],["Speakers & trainers",SITE.org.impact.speakers],["Collaborating organizations",SITE.org.impact.organizations]]
+      .map(([k,v])=>`<div><div class="d2" style="color:var(--deep)">${esc(v??"—")}</div><p class="muted" style="margin-top:6px">${k}</p></div>`).join("")}
+  </div></section>`:""}
+
+  <section class="belief"><div class="belief-in">
+    <div class="triad"><span>Learn.</span><span>Connect.</span><span>Grow.</span></div>
+    <blockquote>When physiotherapists continue to learn, connect and grow, the profession grows with them — and ultimately, patients benefit from that growth.</blockquote>
+  </div></section>
+
+  <section class="section"><div class="wrap">
+    <div class="label">People</div>
+    <h2 class="d2" style="margin-bottom:32px">The people behind the community.</h2>
+    <div class="grid g4">${SITE.people.slice(0,4).map(personCard).join("")}</div>
+    <div style="margin-top:30px"><a class="tlink" href="#/people">All speakers, trainers and contributors →</a></div>
+  </div></section>
+
+  <section class="section" style="padding-top:0"><div class="wrap">
+    <div class="label">Be part of what's next</div>
+    <h2 class="d2" style="margin-bottom:30px">Join the work, not just the audience.</h2>
+    <div class="paths">
+      <a href="#/events"><b>Attend a training</b><span>Register for an upcoming course or workshop.</span></a>
+      <a href="#/contact?topic=speaker"><b>Become a speaker</b><span>Propose a session in your area of practice.</span></a>
+      <a href="#/contact?topic=collaboration"><b>Collaborate with PSO</b><span>Run an activity together.</span></a>
+      <a href="#/contact?topic=contribute"><b>Contribute</b><span>Support scientific and educational work.</span></a>
+      <a href="https://instagram.com/${SITE.org.instagram}" target="_blank" rel="noopener"><b>Stay updated</b><span>Follow announcements on Instagram.</span></a>
+    </div>
+  </div></section>`;
+}
+
+function pageAbout(){
+  return `${pageHead("About PSO","A professional home for physiotherapy in Kurdistan.","PSO exists so that physiotherapists and students have somewhere to keep learning, keep connecting and keep growing together.")}
+  <section class="section"><div class="wrap split">
+    <div><div class="label">Our story</div></div>
+    <div>
+      <p class="lede">The Physiotherapy Science Organization is a professional organization dedicated to advancing physiotherapy through education, awareness, professional development and meaningful connection within the physiotherapy community.</p>
+      <p class="prose">Our mission is to increase awareness and understanding of physiotherapy, and to support physiotherapists and physiotherapy students in expanding their knowledge, developing clinical skills and remaining connected with developments in rehabilitation and healthcare.</p>
+      <p class="prose">We consider physiotherapy a continuously developing science — one that requires continuous learning, collaboration and innovation. That is why PSO creates learning opportunities beyond the classroom and the routine clinical environment: educational courses, practical workshops, professional events, conferences and scientific activities covering different areas of physiotherapy.</p>
+      <p class="prose">These activities connect professionals and students, encourage the exchange of knowledge and experience, and create an engaging professional learning environment.</p>
+      ${SITE.org.founded?"":'<div class="note">Establishment year, registration details and organizational status will be published here once confirmed by PSO.</div>'}
+    </div>
+  </div></section>
+
+  <hr class="rule">
+  <section class="section"><div class="wrap grid g2">
+    <div><div class="label">Mission</div><h2 class="d3">Raise understanding of physiotherapy, and support those who practise it.</h2><p class="prose" style="margin-top:14px">We help physiotherapists and students expand knowledge, build clinical skill and stay current with rehabilitation and healthcare practice.</p></div>
+    <div><div class="label">Direction</div><h2 class="d3">Larger conferences, specialized programmes, deeper collaboration.</h2><p class="prose" style="margin-top:14px">Having delivered specialized educational activities and World Physiotherapy Day activities, PSO is expanding towards larger conferences, specialized educational programmes, collaborative events and initiatives supporting innovation and professional growth.</p></div>
+  </div></section>
+
+  <section class="belief"><div class="belief-in">
+    <div class="label" style="justify-content:center">What we believe</div>
+    <blockquote>When physiotherapists continue to learn, connect and grow, the profession grows with them — and ultimately, patients benefit from that growth.</blockquote>
+  </div></section>
+
+  <section class="section"><div class="wrap">
+    <div class="label">Objectives</div>
+    <h2 class="d2" style="margin-bottom:30px">What we set out to do.</h2>
+    <div class="domains">
+      ${[["Credible professional practice","Establish and uphold a scientific, evidence-informed standard for physiotherapy learning in the region."],
+         ["Continuing education","Deliver courses, workshops and scientific activities that professionals can build a career on."],
+         ["Connection","Bring physiotherapists, students, academics and rehabilitation professionals into the same room."],
+         ["Recognition","Give trainers, speakers, contributors and collaborating organizations a permanent professional record."],
+         ["Awareness","Strengthen public and professional understanding of physiotherapy's contribution to healthcare."],
+         ["The next generation","Inspire students entering the profession and keep them connected to it."]]
+        .map(([h,p])=>`<div class="domain"><h3>${h}</h3><p>${p}</p></div>`).join("")}
+    </div>
+  </div></section>
+
+  <section class="section" style="padding-top:0"><div class="wrap">
+    <div class="label">Team</div>
+    <h2 class="d2" style="margin-bottom:28px">Who runs PSO.</h2>
+    ${SITE.people.filter(p=>p.group==="team").length
+      ? `<div class="grid g4">${SITE.people.filter(p=>p.group==="team").map(personCard).join("")}</div>`
+      : `<div class="empty">Team profiles have not been supplied yet. Add team members to the content model and they will appear here with their photo, role and the activities they contributed to.</div>`}
+    <div style="margin-top:34px"><a class="btn btn-primary" href="#/contact">Get in touch with PSO</a></div>
+  </div></section>`;
+}
+
+const CATS=["All","Course","Workshop","Conference","Scientific Activity","Professional Event","Awareness"];
+function pageActivities(){
+  const years=[...new Set(SITE.events.map(e=>e.year))].sort((a,b)=>b-a);
+  return `${pageHead("Activities","Every course, workshop and scientific activity in one place.","A permanent archive of PSO's professional work — not posts that disappear down a social feed.")}
+  <section class="section"><div class="wrap">
+    <div class="filters" id="catFilters">${CATS.map(c=>`<button data-cat="${esc(c)}" class="${c==="All"?"on":""}">${esc(c)}</button>`).join("")}</div>
+    <div class="filters" id="yearFilters">${["All years",...years].map(y=>`<button data-year="${esc(y)}" class="${y==="All years"?"on":""}">${esc(y)}</button>`).join("")}</div>
+    <div class="grid g3" id="activityGrid">${SITE.events.map(eventCard).join("")}</div>
+  </div></section>`;
+}
+
+function pageEvents(){
+  const up=upcoming(),pa=past();
+  return `${pageHead("Events & Training","What's next, and what came before.","Register for upcoming training, or explore the record of completed activities, their contributors and their photographs.")}
+  <section class="section"><div class="wrap">
+    <div class="label">Upcoming</div>
+    <h2 class="d2" style="margin-bottom:30px">Open for registration.</h2>
+    ${up.length?`<div class="grid g3">${up.map(eventCard).join("")}</div>`:`<div class="empty">No upcoming events are published right now. Follow <a href="https://instagram.com/${SITE.org.instagram}" target="_blank" rel="noopener">@${SITE.org.instagram}</a> for announcements.</div>`}
+  </div></section>
+  <section class="section" style="background:var(--paper-2);border-top:1px solid var(--line)"><div class="wrap">
+    <div class="label">Past</div>
+    <h2 class="d2" style="margin-bottom:30px">Completed activities.</h2>
+    <div class="grid g3">${pa.map(eventCard).join("")}</div>
+  </div></section>`;
+}
+
+function pageEventDetail(slug){
+  const e=event_(slug);
+  if(!e) return pageHead("Not found","This event could not be found.","")+`<section class="section"><div class="wrap"><a class="btn btn-primary" href="#/events">Back to events</a></div></section>`;
+  const ppl=eventPeople(e), venue=SITE.organizations.find(o=>o.slug===e.venueSlug);
+  const done=e.status==="completed";
+  return `
+  <section class="dhero"><div class="dhero-in">
+    <div class="crumb"><a href="#/events">Events &amp; Training</a> / ${esc(e.category)}</div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px">${statusTag(e)}${e.free?'<span class="tag free">Free</span>':""}${e.certificate?'<span class="tag cert">Certificate</span>':""}</div>
+    <h1 class="d1" style="color:#fff;max-width:22ch">${esc(e.title)}</h1>
+    <p style="color:#C9D5CC;max-width:60ch;margin-top:18px">${esc(e.summary||"")}</p>
+  </div></section>
+
+  <section class="section"><div class="wrap dgrid">
+    <div>
+      ${photoOr(e.photos?.[0]?.src,e.title,"aspect-ratio:16/9;margin-bottom:34px")}
+      <h2 class="d3">Overview</h2>
+      <p class="prose" style="margin-top:12px">${esc(e.overview||"Overview to be supplied.")}</p>
+
+      ${e.objectives?.length?`<h2 class="d3" style="margin-top:34px">Learning objectives</h2>
+        <ul class="objectives" style="margin-top:12px">${e.objectives.map(o=>`<li>${esc(o)}</li>`).join("")}</ul>`:""}
+
+      ${e.agenda?.length?`<h2 class="d3" style="margin-top:34px">Programme</h2>
+        <ol class="agenda" style="margin-top:12px">${e.agenda.map(a=>`<li><b>${esc(a.time||"")}</b><span>${esc(a.item||"")}</span></li>`).join("")}</ol>`:""}
+
+      ${e.audience?.length?`<h2 class="d3" style="margin-top:34px">Who it is for</h2>
+        <p class="prose" style="margin-top:10px">${esc(e.audience.join(" · "))}</p>`:""}
+
+      ${ppl.length?`<h2 class="d3" style="margin-top:34px">${done?"Contributors":"Speakers and trainers"}</h2>
+        <div class="grid g3" style="margin-top:16px">${ppl.map(personCard).join("")}</div>`:""}
+
+      <h2 class="d3" style="margin-top:44px">${done?"Event highlights":"Gallery"}</h2>
+      ${e.photos?.length
+        ? `<div class="gal" data-gal="${e.slug}" style="margin-top:16px">${e.photos.map((p,i)=>`<button data-i="${i}">${photoOr(p.src,p.caption||e.title,"aspect-ratio:1/1")}</button>`).join("")}</div>`
+        : `<div class="empty" style="margin-top:16px">Photographs from this activity have not been added yet.</div>`}
+    </div>
+
+    <aside>
+      <div class="panel">
+        <h3>Details</h3>
+        <div class="kv">
+          <div><span>Date</span><b>${esc(e.dateText||"To be announced")}</b></div>
+          ${e.time?`<div><span>Time</span><b>${esc(e.time)}</b></div>`:""}
+          <div><span>Location</span><b>${esc(e.location||"To be announced")}</b></div>
+          <div><span>Organizer</span><b>${esc(e.organizer)}</b></div>
+          ${venue?`<div><span>Venue</span><b>${esc(venue.name)}</b></div>`:""}
+          ${e.partners?.length?`<div><span>Partners</span><b>${esc(e.partners.join(", "))}</b></div>`:""}
+          <div><span>Capacity</span><b>${e.capacity??"To be announced"}</b></div>
+          <div><span>Certificate</span><b>${e.certificate?"Attendance certificate available":"To be announced"}</b></div>
+        </div>
+      </div>
+
+      <div class="panel" style="margin-top:20px">
+        ${done
+          ? `<h3>This event is complete</h3><p style="margin:0;font-size:.93rem;color:var(--muted)">Registration is closed. The record above stays here as part of PSO's professional archive.</p>`
+          : `<h3>Registration</h3>
+             <p style="font-size:.93rem;color:var(--muted)">${e.free?"Attendance is free.":"Registration details to be announced."}${e.seatsLeft!=null?" "+esc(e.seatsLeft)+" seats remaining.":""}</p>
+             ${e.registrationUrl
+                ? `<a class="btn btn-primary" style="width:100%" href="${esc(e.registrationUrl)}" target="_blank" rel="noopener">Register</a>`
+                : `<div class="note">Registration link not added yet. Paste it into <code>registrationUrl</code> and this becomes a live button.</div>`}`}
+      </div>
+
+      <div class="panel" style="margin-top:20px">
+        <h3>Related events</h3>
+        ${SITE.events.filter(x=>x.slug!==e.slug&&x.category===e.category).slice(0,3).map(x=>`<a href="#/events/${x.slug}" style="display:block;text-decoration:none;padding:10px 0;border-bottom:1px solid var(--line-soft)"><b style="font-family:var(--serif);font-weight:500">${esc(x.title)}</b><br><span class="muted" style="font-size:.85rem">${esc(x.dateText||"")}</span></a>`).join("")||'<p class="muted" style="margin:0;font-size:.9rem">Nothing related yet.</p>'}
+      </div>
+    </aside>
+  </div></section>`;
+}
+
+function pagePeople(){
+  const groups=[["Leadership / team","team"],["Speakers","speakers"],["Trainers","trainers"],["Scientific contributors","contributors"]];
+  return `${pageHead("People","The people behind the community.","Every speaker, trainer and contributor is linked to the activities they took part in — so the work, and the people who did it, stay on the record.")}
+  ${groups.map(([title,key])=>{
+    const list=SITE.people.filter(p=>p.group===key);
+    return `<section class="section" style="padding-block:clamp(40px,6vw,72px)"><div class="wrap">
+      <div class="label">${esc(title)}</div>
+      ${list.length?`<div class="grid g4" style="margin-top:20px">${list.map(personCard).join("")}</div>`
+        :`<div class="empty" style="margin-top:14px">No profiles in this group yet.</div>`}
+    </div></section>`;
+  }).join("")}
+  <section class="section" style="background:var(--paper-2);border-top:1px solid var(--line)"><div class="wrap">
+    <div class="label">Contributors and collaborators</div>
+    <h2 class="d2" style="margin-bottom:12px">Recognizing those who make the work possible.</h2>
+    <p class="prose" style="margin-bottom:28px">Organizations are listed by the role they actually played — venue, collaborator, academic institution, supporting organization, event partner or sponsor.</p>
+    <div class="grid g3">
+      ${SITE.organizations.map(o=>`<div class="panel"><span class="tag">${esc(o.type)}</span><h3 style="margin-top:12px">${esc(o.name)}</h3><p class="muted" style="margin:6px 0 0;font-size:.9rem">${esc(o.note||"")}</p></div>`).join("")}
+    </div>
+  </div></section>`;
+}
+
+function pagePersonDetail(slug){
+  const p=person(slug);
+  if(!p) return pageHead("Not found","This profile could not be found.","");
+  const evs=SITE.events.filter(e=>[...(e.speakers||[]),...(e.trainers||[])].includes(slug));
+  return `${pageHead("People",p.name,p.credentials||"")}
+  <section class="section"><div class="wrap dgrid">
+    <div>
+      <h2 class="d3">Biography</h2>
+      <p class="prose" style="margin-top:12px">${p.bio?esc(p.bio):"Biography to be supplied by PSO."}</p>
+      ${p.expertise?.length?`<h2 class="d3" style="margin-top:30px">Areas of expertise</h2><p class="prose">${esc(p.expertise.join(" · "))}</p>`:""}
+      <h2 class="d3" style="margin-top:36px">PSO activities</h2>
+      ${evs.length?`<div class="grid g2" style="margin-top:16px">${evs.map(eventCard).join("")}</div>`:`<div class="empty" style="margin-top:14px">No activities linked yet.</div>`}
+    </div>
+    <aside>
+      ${photoOr(p.photo,p.name,"aspect-ratio:1/1")}
+      <div class="panel" style="margin-top:20px">
+        <div class="kv">
+          <div><span>Name</span><b>${esc(p.name)}</b></div>
+          <div><span>Credentials</span><b>${esc(p.credentials||"To be supplied")}</b></div>
+          <div><span>Role</span><b>${esc(p.role||"To be supplied")}</b></div>
+          <div><span>Institution</span><b>${esc(p.org||"To be supplied")}</b></div>
+        </div>
+        ${p.link?`<a class="btn btn-outline btn-sm" style="width:100%;margin-top:16px" href="${esc(p.link)}" target="_blank" rel="noopener">Professional profile</a>`:""}
+      </div>
+    </aside>
+  </div></section>`;
+}
+
+function pageGallery(){
+  const albums=SITE.events.filter(e=>e.status==="completed"||e.photos?.length);
+  return `${pageHead("Gallery","Photographs, organized by activity.","Each album belongs to the event it came from, so a photograph always keeps its context.")}
+  <section class="section"><div class="wrap grid g3">
+    ${albums.map(e=>`<a class="ecard" href="#/gallery/${e.slug}">
+      ${photoOr(e.photos?.[0]?.src,e.title,"aspect-ratio:4/3")}
+      <div class="ecard-body"><h3>${esc(e.title)}</h3>
+      <div class="meta"><span>${esc(e.dateText||"")}</span><span>${e.photos?.length?e.photos.length+" photographs":"No photographs yet"}</span></div></div>
+    </a>`).join("")}
+  </div></section>`;
+}
+
+function pageAlbum(slug){
+  const e=event_(slug);
+  if(!e) return pageHead("Not found","This album could not be found.","");
+  return `${pageHead("Gallery",e.title,e.dateText||"")}
+  <section class="section"><div class="wrap">
+    <a class="tlink" href="#/events/${e.slug}">Go to the event record →</a>
+    ${e.photos?.length
+      ? `<div class="gal" data-gal="${e.slug}" style="margin-top:28px">${e.photos.map((p,i)=>`<button data-i="${i}">${photoOr(p.src,p.caption||e.title,"aspect-ratio:1/1")}</button>`).join("")}</div>`
+      : `<div class="empty" style="margin-top:28px">Photographs for this activity have not been uploaded yet. Add them to <code>photos</code> in the content model.</div>`}
+  </div></section>`;
+}
+
+function pageNews(){
+  return `${pageHead("News","Announcements and updates.","Event announcements, new training opportunities, collaborations and organizational updates.")}
+  <section class="section"><div class="wrap">
+    ${SITE.news.length
+      ? SITE.news.map(n=>`<a class="narticle" href="#/news/${n.slug}"><time>${esc(n.dateText||"")}</time><div><h3 class="d3">${esc(n.title)}</h3><p class="muted" style="margin:8px 0 0">${esc(n.excerpt||"")}</p></div></a>`).join("")
+      : `<div class="empty">No news items have been published yet. PSO can add announcements to the content model — nothing is invented to fill this page.</div>`}
+  </div></section>`;
+}
+
+function pageNewsDetail(slug){
+  const n=SITE.news.find(x=>x.slug===slug);
+  if(!n) return pageHead("Not found","This article could not be found.","");
+  return `${pageHead("News",n.title,n.dateText||"")}<section class="section"><div class="wrap"><div class="prose">${esc(n.body||"")}</div></div></section>`;
+}
+
+function pageContact(){
+  const o=SITE.org;
+  return `${pageHead("Contact","Talk to PSO.","Training questions, collaboration proposals, speaker interest or general enquiries.")}
+  <section class="section"><div class="wrap dgrid">
+    <div>
+      <h2 class="d3" style="margin-bottom:20px">Send a message</h2>
+      <form id="contactForm" novalidate>
+        <label class="field"><span>Your name</span><input name="name" required autocomplete="name"></label>
+        <label class="field"><span>Email</span><input name="email" type="email" required autocomplete="email"></label>
+        <label class="field"><span>What is this about?</span>
+          <select name="topic">
+            <option value="general">General enquiry</option>
+            <option value="training">Training and courses</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="speaker">Speaker or trainer interest</option>
+            <option value="partnership">Organization partnership</option>
+          </select>
+        </label>
+        <label class="field"><span>Message</span><textarea name="message" required></textarea></label>
+        <button class="btn btn-primary" type="submit">Send message</button>
+        <p id="formNote" class="muted" style="margin-top:14px;font-size:.88rem">This form needs an email endpoint before it can send. Until then, please write to PSO on Instagram.</p>
+      </form>
+    </div>
+    <aside>
+      <div class="panel">
+        <h3>Reach us</h3>
+        <div class="kv">
+          <div><span>Instagram</span><b><a href="https://instagram.com/${o.instagram}" target="_blank" rel="noopener" style="color:var(--green)">@${o.instagram}</a></b></div>
+          <div><span>Email</span><b>${o.email?esc(o.email):"To be supplied"}</b></div>
+          <div><span>Phone</span><b>${o.phone?esc(o.phone):"To be supplied"}</b></div>
+          <div><span>WhatsApp</span><b>${o.whatsapp?`<a href="${esc(o.whatsapp)}" style="color:var(--green)">Open chat</a>`:"To be supplied"}</b></div>
+          <div><span>Location</span><b>${o.address?esc(o.address):"Erbil, Kurdistan Region, Iraq"}</b></div>
+        </div>
+      </div>
+      <div class="panel" style="margin-top:20px">
+        <h3>Working with PSO</h3>
+        <p class="muted" style="font-size:.92rem;margin:0">If you are a speaker, trainer, university or rehabilitation organization interested in running an activity together, say so in your message and PSO will follow up.</p>
+      </div>
+    </aside>
+  </div></section>`;
+}
+
+/* ==========================  ROUTER  ======================================= */
+const NAVS=[["home","#/"],["about","#/about"],["activities","#/activities"],["events","#/events"],["people","#/people"],["gallery","#/gallery"],["news","#/news"],["contact","#/contact"]];
+let LANG="en";
+
+function render(){
+  const raw=(location.hash||"#/").slice(1);
+  const [path,query]=raw.split("?");
+  const seg=path.split("/").filter(Boolean);
+  let html;
+  if(seg.length===0) html=pageHome();
+  else if(seg[0]==="about") html=pageAbout();
+  else if(seg[0]==="activities") html=pageActivities();
+  else if(seg[0]==="events") html=seg[1]?pageEventDetail(seg[1]):pageEvents();
+  else if(seg[0]==="people") html=seg[1]?pagePersonDetail(seg[1]):pagePeople();
+  else if(seg[0]==="gallery") html=seg[1]?pageAlbum(seg[1]):pageGallery();
+  else if(seg[0]==="news") html=seg[1]?pageNewsDetail(seg[1]):pageNews();
+  else if(seg[0]==="contact") html=pageContact();
+  else html=pageHead("Not found","That page does not exist.","")+`<section class="section"><div class="wrap"><a class="btn btn-primary" href="#/">Back to the homepage</a></div></section>`;
+
+  const banner=(LANG!=="en"&&I18N[LANG].pending)
+    ? `<div style="background:rgba(192,145,44,.14);border-bottom:1px solid var(--line);padding:12px var(--gut);text-align:center;font-size:.9rem">${esc(I18N[LANG].pending)}</div>`:"";
+  $("#main").innerHTML=banner+html;
+
+  document.title=(seg.length? (document.querySelector("#main h1")?.textContent||"PSO")+" — Physiotherapy Science Organization" : "Physiotherapy Science Organization — Advancing physiotherapy through science, education and connection");
+  buildNav();
+  wirePage(query);
+  window.scrollTo({top:0,behavior:"instant"in window?"instant":"auto"});
+}
+
+function buildNav(){
+  const cur="#"+((location.hash||"#/").slice(1).split("?")[0]);
+  const t=I18N[LANG].nav;
+  const items=NAVS.map(([k,h])=>`<a href="${h}" class="${cur===h||(h!=="#/"&&cur.startsWith(h))?"on":""}">${esc(t[k])}</a>`).join("");
+  $("#mainNav").innerHTML=items;
+  const langBtns=["en","ku","ar"].map(l=>`<button data-lang="${l}" class="${l===LANG?"on":""}">${l==="en"?"English":l==="ku"?"کوردی":"العربية"}</button>`).join("");
+  $("#drawer").innerHTML=items+`<a class="btn btn-gold" href="#/events">${esc(I18N[LANG].cta.upcoming)}</a>`
+    +`<div class="lang" style="margin-top:16px">${langBtns}</div>`;
+  $("#langSwitch").innerHTML=["en","ku","ar"].map(l=>`<button data-lang="${l}" class="${l===LANG?"on":""}">${l.toUpperCase()}</button>`).join("");
+  document.querySelectorAll('[data-i18n="cta.upcoming"]').forEach(el=>el.textContent=I18N[LANG].cta.upcoming);
+}
+
+function wirePage(query){
+  // activity filters
+  const grid=$("#activityGrid");
+  if(grid){
+    let cat="All",year="All years";
+    const apply=()=>{
+      const list=SITE.events.filter(e=>(cat==="All"||e.category===cat)&&(year==="All years"||String(e.year)===String(year)));
+      grid.innerHTML=list.length?list.map(eventCard).join(""):`<div class="empty" style="grid-column:1/-1">No activities match this filter yet.</div>`;
+    };
+    $("#catFilters").addEventListener("click",ev=>{const b=ev.target.closest("button");if(!b)return;cat=b.dataset.cat;
+      $("#catFilters").querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));apply();});
+    $("#yearFilters").addEventListener("click",ev=>{const b=ev.target.closest("button");if(!b)return;year=b.dataset.year;
+      $("#yearFilters").querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));apply();});
+  }
+  // gallery lightbox
+  const gal=document.querySelector("[data-gal]");
+  if(gal){
+    const e=event_(gal.dataset.gal); let idx=0;
+    const show=i=>{
+      const ph=e.photos[i]; if(!ph) return; idx=i;
+      $("#lbFrame").innerHTML=ph.src?`<img src="${esc(ph.src)}" alt="${esc(ph.caption||e.title)}" style="max-width:100%;max-height:70vh;object-fit:contain">`:`<div>Photograph placeholder</div>`;
+      $("#lbCap").textContent=ph.caption||e.title;
+      $("#lightbox").classList.add("on");
+    };
+    gal.addEventListener("click",ev=>{const b=ev.target.closest("button");if(b)show(+b.dataset.i)});
+    $("#lbPrev").onclick=()=>show((idx-1+e.photos.length)%e.photos.length);
+    $("#lbNext").onclick=()=>show((idx+1)%e.photos.length);
+  }
+  // contact form
+  const form=$("#contactForm");
+  if(form){
+    if(query){const t=new URLSearchParams(query).get("topic");if(t)form.topic.value=t;}
+    form.addEventListener("submit",ev=>{
+      ev.preventDefault();
+      const n=$("#formNote");
+      if(!form.name.value.trim()||!form.email.value.trim()||!form.message.value.trim()){
+        n.textContent="Fill in your name, email and message before sending."; n.style.color="var(--red)"; return;
+      }
+      n.textContent="This form is not connected to an inbox yet. Copy your message and send it to PSO on Instagram, or add an email endpoint to make it live.";
+      n.style.color="var(--muted)";
+    });
+  }
+}
+
+/* ==========================  BOOT  ========================================= */
+$("#yr").textContent=new Date().getFullYear();
+if(SITE.org.email) $("#footEmail").textContent=SITE.org.email;
+if(SITE.org.phone) $("#footPhone").textContent=SITE.org.phone;
+
+$("#burger").addEventListener("click",()=>{
+  const d=$("#drawer"),open=d.classList.toggle("open");
+  $("#burger").setAttribute("aria-expanded",open?"true":"false");
+});
+document.addEventListener("click",ev=>{
+  const a=ev.target.closest("#drawer a"); if(a) $("#drawer").classList.remove("open");
+  const l=ev.target.closest("[data-lang]");
+  if(l){LANG=l.dataset.lang;document.documentElement.lang=LANG==="ku"?"ckb":LANG;document.documentElement.dir=I18N[LANG].dir;render();}
+});
+$("#lbClose").onclick=()=>$("#lightbox").classList.remove("on");
+$("#lightbox").addEventListener("click",e=>{if(e.target.id==="lightbox")$("#lightbox").classList.remove("on")});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")$("#lightbox").classList.remove("on")});
+
+window.addEventListener("hashchange",render);
+render();
+</script>
+</body>
+</html>
